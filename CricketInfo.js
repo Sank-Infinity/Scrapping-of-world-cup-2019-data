@@ -1,6 +1,13 @@
 
 // node CricketInfo.js --source=https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results --excel=worldCup.csv --jsonFile=teams.json --folder=data
 
+// npm init -y
+// npm install minimist
+// npm install axios
+// npm install jsdom
+// npm install excel4node
+// npm install pdf-lib
+
 let minimist = require("minimist");
 let axios = require("axios");
 let jsdom = require("jsdom");
